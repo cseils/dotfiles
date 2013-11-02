@@ -13,6 +13,7 @@ alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
 alias p="cd ~/Projects"
 alias g="git"
+alias gl="git log --oneline --graph"
 alias h="history"
 alias j="jobs"
 
