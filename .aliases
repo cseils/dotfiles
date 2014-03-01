@@ -17,6 +17,8 @@ alias gl="git log --oneline --graph"
 alias h="history"
 alias j="jobs"
 alias ipecho="curl ipecho.net/plain; echo"
+alias npmls='npm ls "$@" | grep "^[└├]" | sed "s/─┬/──/g"'
+alias npmlsg='npm ls "$@" -g | grep "^[└├]" | sed "s/─┬/──/g"'
 
 # Detect which `ls` flavor is in use
 if ls --color > /dev/null 2>&1; then # GNU `ls`
